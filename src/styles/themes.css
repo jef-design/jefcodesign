@@ -1,0 +1,21 @@
+:root {
+    /* Your default theme */
+    /* --background: red;
+    --foreground: black; */
+  }
+  
+/* [data-theme='dark'] {
+    --background: blue;
+    --foreground: white;
+  } */
+  [data-theme='dark'] body{
+    background-color: #1e2023;
+  }
+  [data-theme='dark'] h1,h2,h3,h4{
+    /* color: white; */
+  }
+
+[data-theme='dark'] [data-hide-on-theme='dark'],
+[data-theme='light'] [data-hide-on-theme='light'] {
+  display: none;
+}
