@@ -30,7 +30,7 @@ const stagger = {
 const links = [
     { linkname: "Projects", to: "/project", id: 1 },
     { linkname: "About & Skill", to: "/about", id: 2 },
-    // { linkname: "Blogs", to: "/blogs", id: 3 },
+    { linkname: "Contact", to: "/contact", id: 3 },
 ];
 const linkFade = {
     open: { opacity: 1, x: 0 },
