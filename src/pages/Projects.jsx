@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { data } from "../data";
 import ProjectCard from "../components/ProjectCard";
 import { motion } from "framer-motion";
@@ -29,6 +29,9 @@ const stagger = {
 };
 
 function Projects() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     const SEO = {
         title: "Jeff Bermejo | Projects",
         description:
