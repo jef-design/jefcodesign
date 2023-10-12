@@ -49,7 +49,7 @@ const Header = () => {
                 <title>Jeff Bermejo | Front-end Developer</title>
             </Head> */}
             <motion.header
-                className="header container"
+                className="header"
                 exit={{ opacity: 0 }}
                 initial="hidden"
                 animate="visible"

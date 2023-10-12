@@ -123,7 +123,7 @@ function ProjectInfo() {
                                                     <motion.p variants={FadeRight}>{status}</motion.p>
                                                 </div>
                                                 <div className="project__btn">
-                                                    <Link to={site_link} >
+                                                    <Link to={site_link} target="_blank" rel="noopener noreferrer" >
                                                         <a target="_blank" rel="noopener noreferrer">
                                                             <motion.div className="project__link">
                                                                 View live site <i className="bx bx-chevron-right"></i>

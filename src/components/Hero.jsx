@@ -66,22 +66,23 @@ const Hero = () => {
                 <div className="dots-right">
                     <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
                 </div>
-                
+
             </div>
             <motion.div variants={stagger}>
             <motion.h1 variants={FadeUp} className="hero__bigheader">
-                    Hi there I&apos;m <span className="hero__span">Jeff</span>
+                    Hi I&apos;m <span className="hero__span">Jeff</span>
                 </motion.h1>
                 <motion.h1 variants={FadeUp} className="hero__bigheader">
-                    I <span className="hero__span">build</span> things for the{" "}
-                    <span className="hero__span">Web.</span>
+                    <span><span className="hero__span">specialize</span> in turning <span className="hero__span">ideas</span> into <span className="hero__span">digital</span> reality</span>
+                    {/* I <span className="hero__span">build</span> things for the{" "}
+                    <span className="hero__span">Web.</span> */}
                 </motion.h1>
                 <motion.p className="hero__text" variants={FadeUp}>
                     I design and build quality responsive websites, clean user
                     interfaces and interactive web apps. Mainly focusing in
-                    Reactjs framework and other web development technologies.
+                    Reactjs,Nodejs and other web development technologies.
                 </motion.p>
-            
+
             <motion.div variants={FadeUp} className="hero__cta">
                 <a href="#sectionProjects" className="project__cta">view projects</a>
                 <h3>
@@ -89,13 +90,13 @@ const Hero = () => {
                     <i className="bx bx-mail-send"></i>
                     <Link
                         to="mailto:bermejojeffreyg@gmail.com"
-                        
+
                     >
                         bermejojeffreyg@gmail.com
                     </Link>
                 </h3>
             </motion.div>
-            </motion.div>     
+            </motion.div>
         </motion.div>
     );
 };
