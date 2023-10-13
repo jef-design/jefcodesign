@@ -67,7 +67,7 @@ function About() {
                     <motion.div className="about__info">
                         <motion.p variants={FadeUp}>
                             &nbsp;&nbsp;&nbsp;&nbsp;Hi i&apos;m <b>Jeff</b>,{" "}
-                            <b>Front-end Web Developer</b> i specialise in
+                            <b>Full Stack Web Developer</b> i specialise in
                             creating beautiful, usable, professional website
                             using best practice. all my works are lovingly hand
                             coded.
